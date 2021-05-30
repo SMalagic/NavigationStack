@@ -10,7 +10,7 @@ import UIKit
 
 extension UIViewController {
     
-    func cleanAllViewControllers() -> [String]{
+    func cleanAllViewControllers(viewcontroller : UIViewController){
         
         var vcArray = [String]()
         
@@ -31,7 +31,14 @@ extension UIViewController {
             
         })
         
-        return vcArray
+        DialogHandler.showAlert(ttl: "Silinen Vc'ler", msg: "\(vcArray)", controller: viewcontroller)
+    }
+    
+    static func pushVc(storyboardName: String, from : UIViewController, fromStoryBoardId : String){
+        
+        let vc = UIStoryboard.init(name: storyboardName, bundle: Bundle.main).instantiateViewController(withIdentifier: fromStoryBoardId)
+        from.navigationController?.pushViewController(vc, animated: true)
+        
     }
     
 }

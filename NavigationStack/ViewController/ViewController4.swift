@@ -14,9 +14,10 @@ class ViewController4: BaseViewController {
     }
     
     @IBAction func btnTapped(_ sender:UIButton!) {
-        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "VC5") as? ViewController5
-        vc?.navigationItem.backButtonTitle = ""
-        self.navigationController?.pushViewController(vc!, animated: true)
+        ViewController4.pushVc(storyboardName: "Main", from: self, fromStoryBoardId: "VC5")
     }
 
+    @IBAction func btn4Tapped(_ sender: Any) {
+        self.cleanAllViewControllers(viewcontroller: self)
+    }
 }

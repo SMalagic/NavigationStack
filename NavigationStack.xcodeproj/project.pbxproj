@@ -20,6 +20,7 @@
 		F87527D12662FDF20000F47B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87527D02662FDF20000F47B /* Extension.swift */; };
 		F87527D52662FE2F0000F47B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87527D42662FE2F0000F47B /* Constants.swift */; };
 		F87527D8266310E00000F47B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87527D7266310E00000F47B /* BaseViewController.swift */; };
+		F8DE0D0226631A8A0063599A /* DialogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DE0D0126631A8A0063599A /* DialogHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F87527D02662FDF20000F47B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		F87527D42662FE2F0000F47B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F87527D7266310E00000F47B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F8DE0D0126631A8A0063599A /* DialogHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				F87527D02662FDF20000F47B /* Extension.swift */,
 				F87527D42662FE2F0000F47B /* Constants.swift */,
+				F8DE0D0126631A8A0063599A /* DialogHandler.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				F87527B12662FA230000F47B /* ViewController.swift in Sources */,
 				F87527C32662FC780000F47B /* ViewController2.swift in Sources */,
 				F87527AD2662FA230000F47B /* AppDelegate.swift in Sources */,
+				F8DE0D0226631A8A0063599A /* DialogHandler.swift in Sources */,
 				F87527D8266310E00000F47B /* BaseViewController.swift in Sources */,
 				F87527AF2662FA230000F47B /* SceneDelegate.swift in Sources */,
 				F87527CC2662FC960000F47B /* ViewController5.swift in Sources */,

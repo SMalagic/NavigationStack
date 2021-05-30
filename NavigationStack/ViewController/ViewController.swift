@@ -14,10 +14,12 @@ class ViewController: BaseViewController {
     }
 
     @IBAction func btnTapped(_ sender:UIButton!) {
-        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "VC2") as? ViewController2
-        vc?.navigationItem.backButtonTitle = ""
-        self.navigationController?.pushViewController(vc!, animated: true)
-        
+        ViewController.pushVc(storyboardName: "Main", from: self, fromStoryBoardId: "VC2")
     }
+    
+    @IBAction func btn2Tapped(_ sender: Any) {
+        self.cleanAllViewControllers(viewcontroller: self)
+    }
+    
 }
 
