@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dkn-OE-rQb">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Hoşgeldin-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="VC1" id="BYZ-38-t0r" customClass="ViewController" customModule="NavigationStack" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="İlk sayfadasınız" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="peC-uU-U7A">
+                                <rect key="frame" x="16" y="76" width="343" height="38.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGu-ws-UsW" customClass="ScaleButton" customModule="NavigationStack" customModuleProvider="target">
+                                <rect key="frame" x="16" y="130.5" width="343" height="50"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="P97-Hh-4lc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                <state key="normal" title="İleri 1/5">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4bs-ua-KuY"/>
+                                    <action selector="btnTapped:" destination="S6f-SF-8aR" eventType="touchUpInside" id="HnN-YC-Kvv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="peC-uU-U7A" secondAttribute="trailing" constant="16" id="7Jx-mf-QP5"/>
+                            <constraint firstItem="QGu-ws-UsW" firstAttribute="top" secondItem="peC-uU-U7A" secondAttribute="bottom" constant="16" id="BL0-zP-I3W"/>
+                            <constraint firstItem="peC-uU-U7A" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="NG6-SX-iKw"/>
+                            <constraint firstItem="QGu-ws-UsW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="V5W-Zy-FeS"/>
+                            <constraint firstItem="peC-uU-U7A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Zwn-vV-AIf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QGu-ws-UsW" secondAttribute="trailing" constant="16" id="jKH-TF-BNF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Hoşgeldin" id="OKF-VX-LDQ">
+                        <barButtonItem key="backBarButtonItem" title=" " id="uDD-hr-4UI"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="997.60000000000002" y="89.505247376311857"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="jWX-xK-Qit">
+            <objects>
+                <viewController storyboardIdentifier="VC2" id="sW6-KN-4Kt" customClass="ViewController2" customModule="NavigationStack" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XGB-tw-4nv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="İkinci sayfadasınız" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPo-yh-uGd">
+                                <rect key="frame" x="16" y="32" width="343" height="39"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lT3-nY-38Q" customClass="ScaleButton" customModule="NavigationStack" customModuleProvider="target">
+                                <rect key="frame" x="16" y="87" width="343" height="50"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="fSs-cl-648"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                <state key="normal" title="İleri 2/5">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnTapped:" destination="S6f-SF-8aR" eventType="touchUpInside" id="Jox-XO-B8W"/>
+                                    <action selector="btnTapped:" destination="sW6-KN-4Kt" eventType="touchUpInside" id="gTT-8J-qNq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dvk-kc-aBb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RPo-yh-uGd" firstAttribute="top" secondItem="dvk-kc-aBb" secondAttribute="top" constant="32" id="34m-Vz-2IY"/>
+                            <constraint firstItem="dvk-kc-aBb" firstAttribute="trailing" secondItem="lT3-nY-38Q" secondAttribute="trailing" constant="16" id="3RY-Gu-Ypv"/>
+                            <constraint firstItem="lT3-nY-38Q" firstAttribute="top" secondItem="RPo-yh-uGd" secondAttribute="bottom" constant="16" id="Our-26-vJ8"/>
+                            <constraint firstItem="lT3-nY-38Q" firstAttribute="leading" secondItem="XGB-tw-4nv" secondAttribute="leading" constant="16" id="TfO-eH-wL1"/>
+                            <constraint firstItem="dvk-kc-aBb" firstAttribute="trailing" secondItem="RPo-yh-uGd" secondAttribute="trailing" constant="16" id="dLg-vW-zq2"/>
+                            <constraint firstItem="RPo-yh-uGd" firstAttribute="leading" secondItem="dvk-kc-aBb" secondAttribute="leading" constant="16" id="jcp-D0-xMW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7SU-Nm-bWU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1694" y="90"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="qLU-HU-vi3">
+            <objects>
+                <viewController storyboardIdentifier="VC3" id="K1z-0z-qKu" customClass="ViewController3" customModule="NavigationStack" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QQG-RF-06v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Üçüncü sayfadasınız" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRD-BS-bQF">
+                                <rect key="frame" x="16" y="32" width="343" height="39"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqc-A2-Soj" customClass="ScaleButton" customModule="NavigationStack" customModuleProvider="target">
+                                <rect key="frame" x="16" y="87" width="343" height="50"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Gpo-Yk-XWe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                <state key="normal" title="İleri 3/5">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnTapped:" destination="K1z-0z-qKu" eventType="touchUpInside" id="cVN-Wj-bSj"/>
+                                    <action selector="btnTapped:" destination="S6f-SF-8aR" eventType="touchUpInside" id="mKo-5C-hml"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="J1d-mZ-Nl1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Bqc-A2-Soj" firstAttribute="top" secondItem="GRD-BS-bQF" secondAttribute="bottom" constant="16" id="9Vv-hs-TCY"/>
+                            <constraint firstItem="GRD-BS-bQF" firstAttribute="leading" secondItem="J1d-mZ-Nl1" secondAttribute="leading" constant="16" id="CeV-Ms-gsT"/>
+                            <constraint firstItem="J1d-mZ-Nl1" firstAttribute="trailing" secondItem="Bqc-A2-Soj" secondAttribute="trailing" constant="16" id="PEe-rY-PDC"/>
+                            <constraint firstItem="GRD-BS-bQF" firstAttribute="top" secondItem="J1d-mZ-Nl1" secondAttribute="top" constant="32" id="VJ7-PO-fxC"/>
+                            <constraint firstAttribute="trailing" secondItem="GRD-BS-bQF" secondAttribute="trailing" constant="16" id="xHP-ac-DK4"/>
+                            <constraint firstItem="Bqc-A2-Soj" firstAttribute="leading" secondItem="J1d-mZ-Nl1" secondAttribute="leading" constant="16" id="yDQ-eV-7SN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rlp-f5-JJe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2377" y="90"/>
+        </scene>
+        <!--View Controller4-->
+        <scene sceneID="5ZW-aV-8hB">
+            <objects>
+                <viewController storyboardIdentifier="VC4" id="IIL-Jp-McC" customClass="ViewController4" customModule="NavigationStack" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T7e-0z-n60">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dördüncü sayfadasınız" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRT-Zh-iOI">
+                                <rect key="frame" x="16" y="32" width="343" height="39"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5c6-zk-owK" customClass="ScaleButton" customModule="NavigationStack" customModuleProvider="target">
+                                <rect key="frame" x="16" y="87" width="343" height="50"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="TC1-rB-HGY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                <state key="normal" title="İleri 4/5">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnTapped:" destination="S6f-SF-8aR" eventType="touchUpInside" id="0jo-iz-tTW"/>
+                                    <action selector="btnTapped:" destination="IIL-Jp-McC" eventType="touchUpInside" id="BRm-rv-LZ9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3PI-P4-cTE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FRT-Zh-iOI" firstAttribute="leading" secondItem="3PI-P4-cTE" secondAttribute="leading" constant="16" id="ABk-E2-45S"/>
+                            <constraint firstAttribute="trailing" secondItem="FRT-Zh-iOI" secondAttribute="trailing" constant="16" id="Kym-6Q-k7g"/>
+                            <constraint firstItem="5c6-zk-owK" firstAttribute="top" secondItem="FRT-Zh-iOI" secondAttribute="bottom" constant="16" id="NET-hq-pyv"/>
+                            <constraint firstItem="5c6-zk-owK" firstAttribute="leading" secondItem="3PI-P4-cTE" secondAttribute="leading" constant="16" id="Q4T-qz-gCC"/>
+                            <constraint firstItem="FRT-Zh-iOI" firstAttribute="top" secondItem="3PI-P4-cTE" secondAttribute="top" constant="32" id="Trn-xi-iir"/>
+                            <constraint firstAttribute="trailing" secondItem="5c6-zk-owK" secondAttribute="trailing" constant="16" id="jEz-fj-U3v"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FSM-0W-GT3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3046" y="90"/>
+        </scene>
+        <!--View Controller5-->
+        <scene sceneID="Wjb-sX-iFL">
+            <objects>
+                <viewController storyboardIdentifier="VC5" id="S6f-SF-8aR" customClass="ViewController5" customModule="NavigationStack" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ga7-HI-WS7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beşinci sayfadasınız" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyM-lc-2nA">
+                                <rect key="frame" x="16" y="32" width="343" height="39"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufH-U2-cts" customClass="ScaleButton" customModule="NavigationStack" customModuleProvider="target">
+                                <rect key="frame" x="16" y="87" width="343" height="50"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Faj-Wt-G0L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                <state key="normal" title="Stack'i Temizle 5/5">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnTapped:" destination="S6f-SF-8aR" eventType="touchUpInside" id="0gE-U0-kuD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PoS-2o-XMw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ufH-U2-cts" firstAttribute="top" secondItem="lyM-lc-2nA" secondAttribute="bottom" constant="16" id="IWQ-92-9fu"/>
+                            <constraint firstItem="lyM-lc-2nA" firstAttribute="top" secondItem="PoS-2o-XMw" secondAttribute="top" constant="32" id="N6U-ry-blE"/>
+                            <constraint firstItem="ufH-U2-cts" firstAttribute="leading" secondItem="PoS-2o-XMw" secondAttribute="leading" constant="16" id="YY9-gI-wkB"/>
+                            <constraint firstItem="PoS-2o-XMw" firstAttribute="trailing" secondItem="ufH-U2-cts" secondAttribute="trailing" constant="16" id="f5F-5G-wpq"/>
+                            <constraint firstItem="lyM-lc-2nA" firstAttribute="leading" secondItem="PoS-2o-XMw" secondAttribute="leading" constant="16" id="hlW-8N-9rF"/>
+                            <constraint firstAttribute="trailing" secondItem="lyM-lc-2nA" secondAttribute="trailing" constant="16" id="lM2-Dm-e5g"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hGh-JV-Ama" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3698" y="90"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PFK-bc-eA5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dkn-OE-rQb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kFh-qH-XW3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="03i-AT-86d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fZ6-Ip-6Gg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="58.399999999999999" y="89.505247376311857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
