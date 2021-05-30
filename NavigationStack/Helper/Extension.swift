@@ -14,6 +14,12 @@ extension UIViewController {
         
         var vcArray = [String]()
         
+        let transition: CATransition = CATransition()
+        transition.duration = 0.3
+        transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
+        transition.type = CATransitionType.reveal
+        self.view.window!.layer.add(transition, forKey: nil)
+        
         navigationController?.viewControllers.removeAll(where: { (vc) -> Bool in
             if vc.isKind(of: ViewController2.self) {
                 vcArray.append("ViewController2")
