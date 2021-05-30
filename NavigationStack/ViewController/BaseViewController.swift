@@ -22,6 +22,7 @@ class BaseViewController: UIViewController {
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.shadowImage = UIImage()
         navigationController?.navigationBar.isTranslucent = true
+        navigationController?.navigationBar.tintColor = UIColor.darkGray
     }
 
     override func viewWillDisappear(_ animated: Bool) {
@@ -30,5 +31,6 @@ class BaseViewController: UIViewController {
         // Restore the navigation bar to default
         navigationController?.navigationBar.setBackgroundImage(nil, for: .default)
         navigationController?.navigationBar.shadowImage = nil
+        navigationController?.navigationBar.barTintColor = UIColor.darkGray
     }
 }
