@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dkn-OE-rQb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2cJ-UK-2Rn">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -25,7 +25,7 @@ sayfadasınız</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGu-ws-UsW" customClass="ScaleButton" customModule="NavigationStack" customModuleProvider="target">
-                                <rect key="frame" x="16" y="585" width="343" height="50"/>
+                                <rect key="frame" x="16" y="536" width="343" height="50"/>
                                 <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="P97-Hh-4lc"/>
@@ -40,7 +40,7 @@ sayfadasınız</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lLL-H4-LNC" customClass="ScaleButton" customModule="NavigationStack" customModuleProvider="target">
-                                <rect key="frame" x="16" y="519" width="343" height="50"/>
+                                <rect key="frame" x="16" y="470" width="343" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="rIt-Qy-EoM"/>
@@ -54,7 +54,7 @@ sayfadasınız</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agh-hg-bSe">
-                                <rect key="frame" x="16" y="273" width="343" height="230"/>
+                                <rect key="frame" x="16" y="224" width="343" height="230"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="230" id="RTN-Um-whf"/>
                                 </constraints>
@@ -86,7 +86,7 @@ sayfadasınız</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="997.60000000000002" y="89.505247376311857"/>
+            <point key="canvasLocation" x="1936.8" y="89.505247376311857"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="jWX-xK-Qit">
@@ -163,7 +163,7 @@ sayfadasınız</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7SU-Nm-bWU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1694" y="90"/>
+            <point key="canvasLocation" x="2632.8000000000002" y="89.505247376311857"/>
         </scene>
         <!--View Controller3-->
         <scene sceneID="qLU-HU-vi3">
@@ -240,7 +240,7 @@ sayfadasınız</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rlp-f5-JJe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2377" y="90"/>
+            <point key="canvasLocation" x="3316" y="89.505247376311857"/>
         </scene>
         <!--View Controller4-->
         <scene sceneID="5ZW-aV-8hB">
@@ -317,7 +317,7 @@ sayfadasınız</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FSM-0W-GT3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3046" y="90"/>
+            <point key="canvasLocation" x="3984.8000000000002" y="89.505247376311857"/>
         </scene>
         <!--View Controller5-->
         <scene sceneID="Wjb-sX-iFL">
@@ -376,12 +376,13 @@ sayfadasınız</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hGh-JV-Ama" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3698" y="90"/>
+            <point key="canvasLocation" x="4636" y="89.505247376311857"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Stack-->
         <scene sceneID="PFK-bc-eA5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dkn-OE-rQb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Stack" image="square.and.arrow.up.fill" catalog="system" id="ecJ-yG-qYw"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kFh-qH-XW3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -394,10 +395,88 @@ sayfadasınız</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fZ6-Ip-6Gg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="997.60000000000002" y="89.505247376311857"/>
+        </scene>
+        <!--Tutorial-->
+        <scene sceneID="AO0-qa-nUH">
+            <objects>
+                <viewController id="O6l-Np-3oo" customClass="Tutorial1ViewController" customModule="NavigationStack" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l91-Ey-TY7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeL-7h-P79" customClass="ScaleButton" customModule="NavigationStack" customModuleProvider="target">
+                                <rect key="frame" x="16" y="552" width="343" height="50"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="XfD-C7-PYm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                <state key="normal" title="Alert Göster">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnTapped:" destination="S6f-SF-8aR" eventType="touchUpInside" id="1B6-KL-DN8"/>
+                                    <action selector="btnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BMe-5T-3kB"/>
+                                    <action selector="showAlertBtnTapped:" destination="O6l-Np-3oo" eventType="touchUpInside" id="dM0-9a-xQX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ouW-ce-AE7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ouW-ce-AE7" firstAttribute="trailing" secondItem="NeL-7h-P79" secondAttribute="trailing" constant="16" id="0Z3-lT-JX5"/>
+                            <constraint firstItem="NeL-7h-P79" firstAttribute="leading" secondItem="ouW-ce-AE7" secondAttribute="leading" constant="16" id="RDe-f5-tZb"/>
+                            <constraint firstItem="ouW-ce-AE7" firstAttribute="bottom" secondItem="NeL-7h-P79" secondAttribute="bottom" constant="16" id="flL-Hi-8bj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tutorial" id="ueb-FT-rVU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3aW-fC-pOR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1936.8" y="833.43328335832086"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="R7j-Tp-iHT">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2cJ-UK-2Rn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="l26-Ry-Uui">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Dkn-OE-rQb" kind="relationship" relationship="viewControllers" id="DEf-FN-hVE"/>
+                        <segue destination="1dA-A4-SkD" kind="relationship" relationship="viewControllers" id="EXa-PK-aYV"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nJv-8p-j5f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="58.399999999999999" y="89.505247376311857"/>
+        </scene>
+        <!--Denemeler-->
+        <scene sceneID="aO5-ZW-ykT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1dA-A4-SkD" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Denemeler" image="externaldrive.fill.badge.minus" catalog="system" id="t4q-jL-kYc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="or4-je-aQN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="O6l-Np-3oo" kind="relationship" relationship="rootViewController" id="3gk-G5-hWd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ciB-bb-Nls" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="997.60000000000002" y="832.53373313343332"/>
         </scene>
     </scenes>
     <resources>
+        <image name="externaldrive.fill.badge.minus" catalog="system" width="128" height="91"/>
+        <image name="square.and.arrow.up.fill" catalog="system" width="115" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
